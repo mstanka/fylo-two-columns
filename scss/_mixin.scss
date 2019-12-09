@@ -1,0 +1,21 @@
+@mixin input {
+  padding: 1rem;
+  margin: 2rem 0 1rem 0;
+  max-width: 350px;
+  width: 100%;
+  border: 1px solid #000; 
+  border-radius: 5px;  
+}
+
+@mixin btn {
+  font-family: $font-header;
+  font-weight: 700;
+  color: $neutral-light;
+  background-color: $accent-blue;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 350px;
+  width: 100%;
+}
