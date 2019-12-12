@@ -1,0 +1,46 @@
+.container-sign {
+  background: $primary-light;
+  color: #fff;
+  flex: 1;
+
+  p {
+    padding: 1rem 1.5rem;
+
+    @include screen-m {
+      padding: 0;
+    }
+  }
+
+
+  .sign-form {     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 2rem;
+
+    @include screen-m {
+      flex-direction: row;
+    }
+
+    input {
+      @include input;
+      width: 80%;
+
+      @include screen-m {
+        margin: 0 .5rem 0 0;
+      }
+    }
+
+    .btn {
+      @include btn;
+      margin-bottom: 4rem;
+      width: 80%;
+
+      @include screen-m {
+        width: 60%;
+      }
+    }  
+  }
+}

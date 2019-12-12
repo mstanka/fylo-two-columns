@@ -1,0 +1,19 @@
+header {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  font-family: $font-header;
+   
+  img {
+    max-width: 25%;
+  }
+
+  a {
+    @include screen-m {
+      font-size: 1rem;
+    }   
+  }
+}

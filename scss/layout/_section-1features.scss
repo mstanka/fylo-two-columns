@@ -1,0 +1,40 @@
+.container-features { 
+  padding-bottom: 5rem;
+
+  .features-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 2rem;
+
+    @include screen-m {
+      flex-direction: row;
+    }
+
+    input {
+      @include input;
+      margin-bottom: 1rem;
+
+      @include screen-m {
+        margin: 0 .5rem 0 0;
+      }
+    }
+
+    .btn {
+      @include btn;
+
+      @include screen-m {
+        width: 60%;
+      }
+    }
+  }
+}
+
+
+.col-2 {
+  @include screen-m {
+    order: 2;
+  }
+}

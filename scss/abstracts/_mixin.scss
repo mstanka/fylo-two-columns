@@ -1,6 +1,5 @@
 @mixin input {
   padding: 1rem;
-  margin: 2rem 0 1rem 0;
   max-width: 350px;
   width: 100%;
   border: 1px solid #000; 
@@ -19,3 +18,23 @@
   max-width: 350px;
   width: 100%;
 }
+
+@mixin screen-m {
+  @media (min-width: 850px) {
+    @content;
+  }
+}
+
+@mixin screen-l {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin screen-xl {
+  @media (min-width: 1440px) {
+    @content;
+  }
+}
+
+
