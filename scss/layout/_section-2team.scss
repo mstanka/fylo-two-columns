@@ -2,6 +2,8 @@ picture {
   img {
     display: block;
     width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
   }
 }
 
@@ -26,7 +28,6 @@ picture {
     color: $accent-cyan;
     padding: .3rem;
     border-bottom: 1px solid $accent-cyan;   
-
     
     .img-arrow {   
       padding-left: .5rem;    

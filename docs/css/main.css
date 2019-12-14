@@ -67,7 +67,7 @@ li a {
 }
 
 .container {
-  max-width: 100%;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 1rem 2rem;
   display: -webkit-box;
@@ -107,12 +107,14 @@ li a {
 
 @media (min-width: 850px) {
   .container .col .illustration {
-    max-width: 100%;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    max-width: 90%;
   }
 }
 
 header {
-  max-width: 100%;
+  max-width: 1400px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -214,6 +216,8 @@ header img {
 picture img {
   display: block;
   width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .container-team {
@@ -300,7 +304,7 @@ picture img {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     grid-gap: 5rem;
-    padding: 3.5rem;
+    padding: 2rem;
   }
 }
 
@@ -315,13 +319,25 @@ picture img {
 }
 
 .container-sign .sign-form {
-  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: .5rem 0 3rem 0;
 }
 
 @media (min-width: 850px) {
   .container-sign .sign-form {
-    margin: 0 auto;
-    padding: 4rem;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    padding: 3rem;
   }
 }
 
@@ -332,12 +348,14 @@ picture img {
   border: 1px solid #000;
   border-radius: 5px;
   width: 80%;
-  margin: 0 0 .5rem 0;
+  margin: .5rem auto;
 }
 
 @media (min-width: 850px) {
   .container-sign .sign-form input {
-    width: 150%;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 0 .5rem 0;
   }
 }
 
@@ -357,7 +375,7 @@ picture img {
 
 @media (min-width: 850px) {
   .container-sign .sign-form .btn {
-    width: 60%;
+    margin: 0;
   }
 }
 

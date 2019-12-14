@@ -23,7 +23,7 @@ h2 {
   padding: 1.5rem 0;
   font-size: 1.6rem;
 
-    @include screen-m {
+  @include screen-m {
     font-size: 1.8rem;
   }
 }
@@ -43,7 +43,7 @@ li {
 }
 
 .container {
-  max-width: 100%;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 1rem 2rem;
   display: flex;
@@ -65,7 +65,9 @@ li {
       max-width: 80%;  
 
       @include screen-m {
-        max-width: 100%;
+        padding-top: 1rem;
+        padding-left: 2rem;
+        max-width: 90%;
       }
     }
   }
