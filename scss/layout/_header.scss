@@ -7,13 +7,13 @@ header {
   padding: 2rem;
   font-family: $font-header;
    
-  img {
+  .logo {
     max-width: 25%;
   }
 
   a {
     @include screen-m {
-      font-size: 1rem;
+      font-size: 1.2rem;
     }   
   }
 }

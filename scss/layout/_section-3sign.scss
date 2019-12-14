@@ -43,11 +43,16 @@
 
     .btn {
       @include btn;
-      width: 80%;  
-      
+        width: 80%;  
+
       @include screen-m {
         margin: 0;
       }  
     }  
+
+    .btn:hover {
+      background-color: darken($accent-blue, 10%);
+      cursor: pointer;
+    }
   }
 }

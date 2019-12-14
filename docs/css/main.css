@@ -54,6 +54,11 @@ h2 {
 
 a {
   text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 li {
@@ -129,13 +134,13 @@ header {
   font-family: "Raleway", sans-serif;
 }
 
-header img {
+header .logo {
   max-width: 25%;
 }
 
 @media (min-width: 850px) {
   header a {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -203,6 +208,11 @@ header img {
   .container-features .features-form .btn {
     width: 60%;
   }
+}
+
+.container-features .features-form .btn:hover {
+  background-color: #0945ec;
+  cursor: pointer;
 }
 
 @media (min-width: 850px) {
@@ -379,6 +389,11 @@ picture img {
   }
 }
 
+.container-sign .sign-form .btn:hover {
+  background-color: #0945ec;
+  cursor: pointer;
+}
+
 .container-contact {
   background: #070439;
   color: #fff;
@@ -488,9 +503,14 @@ picture img {
   border-radius: 50%;
 }
 
+.container-contact .foot-4 i:hover {
+  cursor: pointer;
+}
+
 .attribution {
   font-size: .7rem;
   text-align: center;
+  padding: .3rem;
 }
 
 .attribution a {

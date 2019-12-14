@@ -73,12 +73,17 @@
       border: 1px solid #fff;
       border-radius: 50%;
     }
+
+    i:hover {
+      cursor: pointer;
+    }
   }
 }
 
 .attribution { 
   font-size: .7rem; 
   text-align: center; 
+  padding: .3rem;
 
   a { 
     color: hsl(228, 45%, 44%); 

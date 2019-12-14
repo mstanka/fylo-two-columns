@@ -29,6 +29,11 @@
         width: 60%;
       }
     }
+
+    .btn:hover {
+      background-color: darken($accent-blue, 10%);
+      cursor: pointer;
+    }
   }
 }
 
